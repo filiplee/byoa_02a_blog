@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Bright & Bold palette */
+  --background: #f5f5f4; /* Fog */
+  --foreground: #292524; /* Charcoal */
+  --vivid-blue: #1d4ed8;
+  --azure: #7dd3fc;
+  --golden-sun: #eab308;
+  --lavender: #a78bfa;
+  --giants-orange: #ea580c;
+  --charcoal: #292524;
+  --fog: #f5f5f4;
+  /* Semantic mapping */
+  --sky: var(--vivid-blue);
+  --sky-soft: var(--azure);
+  --lemon: var(--golden-sun);
+  --lemon-soft: #fef9c3;
+  --violet: var(--lavender);
+  --violet-soft: #ddd6fe;
+  --coral: var(--giants-orange);
+  --coral-soft: #ffedd5;
+  --mint: #059669;
+  --mint-soft: #d1fae5;
+  --muted: #57534e;
+  --border: #e7e5e4;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --color-coral: var(--coral);
+  --color-coral-soft: var(--coral-soft);
+  --color-lemon: var(--lemon);
+  --color-lemon-soft: var(--lemon-soft);
+  --color-mint: var(--mint);
+  --color-mint-soft: var(--mint-soft);
+  --color-sky: var(--sky);
+  --color-sky-soft: var(--sky-soft);
+  --color-violet: var(--violet);
+  --color-violet-soft: var(--violet-soft);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), var(--font-sans), system-ui, sans-serif;
+}
+
+/* Simple prose for post body */
+.prose-blog p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+.prose-blog p:last-child {
+  margin-bottom: 0;
+}
+.prose-blog strong {
+  font-weight: 600;
+}
+.prose-blog ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.prose-blog li {
+  margin-bottom: 0.25rem;
 }
