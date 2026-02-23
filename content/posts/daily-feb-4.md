@@ -2,7 +2,7 @@
 slug: daily-feb-4
 title: "Wednesday, 4 February"
 excerpt: "Onboarding tweaks and first metrics."
-date: "2025-02-04"
+date: "2026-02-04"
 type: daily
 dimensions:
   personalProject: "Half an hour on the side project—just planning."

@@ -2,7 +2,7 @@
 slug: daily-feb-5
 title: "Thursday, 5 February"
 excerpt: "Export bug fixed and a bit of refactor."
-date: "2025-02-05"
+date: "2026-02-05"
 type: daily
 dimensions:
   personalProject: ""

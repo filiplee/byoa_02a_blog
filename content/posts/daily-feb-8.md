@@ -2,7 +2,7 @@
 slug: daily-feb-8
 title: "Sunday, 8 February"
 excerpt: "A quiet day of reading and planning."
-date: "2025-02-08"
+date: "2026-02-08"
 type: daily
 dimensions:
   personalProject: "Read for an hour. No project work—intentional rest."

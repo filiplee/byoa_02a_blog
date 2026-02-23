@@ -2,7 +2,7 @@
 slug: week-in-review-feb-3-9
 title: "Week in review: 3–9 Feb"
 excerpt: "A look back at the week: wins, learnings, and what's next."
-date: "2025-02-09"
+date: "2026-02-09"
 type: weekly
 ---
 

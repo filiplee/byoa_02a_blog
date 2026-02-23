@@ -2,7 +2,7 @@
 slug: week-in-review-jan-27-feb-2
 title: "Week in review: 27 Jan – 2 Feb"
 excerpt: "Reflecting on the past week and what's ahead."
-date: "2025-02-02"
+date: "2026-02-02"
 type: weekly
 ---
 

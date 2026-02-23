@@ -2,7 +2,7 @@
 slug: daily-feb-9
 title: "Monday, 9 February"
 excerpt: "Clearing the deck and setting the tone for the week."
-date: "2025-02-09"
+date: "2026-02-09"
 type: daily
 dimensions:
   personalProject: "Sketched the week ahead in the notebook. No side-project time today."
