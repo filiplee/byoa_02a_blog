@@ -15,8 +15,8 @@ function PostList({ filter }: { filter?: string }) {
 
   return (
     <ul className="space-y-12">
-      {posts.map((post) => (
-        <li key={post.slug}>
+      {posts.map((post, index) => (
+        <li key={`${post.slug}-${index}`}>
           <PostCard post={post} />
         </li>
       ))}
