@@ -39,7 +39,14 @@ export interface Post {
   dimensions?: DailyDimensions;
 }
 
-const POSTS_DIR = path.join(process.cwd(), "content", "posts");
+function getPostsDir(): string {
+  const cwd = process.cwd();
+  const inBlog = path.join(cwd, "content", "posts");
+  if (fs.existsSync(inBlog)) return inBlog;
+  const fromParent = path.join(cwd, "blog", "content", "posts");
+  return fs.existsSync(fromParent) ? fromParent : inBlog;
+}
+const POSTS_DIR = getPostsDir();
 
 function parsePostFile(filePath: string): Post {
   const raw = fs.readFileSync(filePath, "utf-8");
