@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "New Blog Post",
+      "type": "shell",
+      "command": "npm run new-post",
+      "options": {
+        "cwd": "${workspaceFolder}/blog"
+      },
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}
