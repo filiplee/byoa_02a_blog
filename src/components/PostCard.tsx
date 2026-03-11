@@ -16,7 +16,7 @@ export function PostCard({ post }: PostCardProps) {
           <time dateTime={post.date}>{formatDate(post.date)}</time>
           <span className="text-[var(--border)]">·</span>
           <PostBadge type={post.type} />
-          <DimensionsCompleteness post={post} />
+          <DimensionsCompleteness post={post} showBreakdown />
         </div>
         <h2 className="text-xl font-semibold tracking-tight text-[var(--foreground)] group-hover:text-[var(--sky)] transition-colors">
           {post.title}
