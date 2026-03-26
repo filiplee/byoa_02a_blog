@@ -23,6 +23,12 @@ export function Header() {
           >
             Weekly
           </Link>
+          <Link
+            href="/admin"
+            className="text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+          >
+            Admin
+          </Link>
         </nav>
       </div>
     </header>
