@@ -6,7 +6,7 @@
       "type": "shell",
       "command": "npm run new-post",
       "options": {
-        "cwd": "${workspaceFolder}/blog"
+        "cwd": "${workspaceFolder}"
       },
       "group": "none",
       "presentation": {
