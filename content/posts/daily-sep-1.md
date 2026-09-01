@@ -5,7 +5,7 @@ excerpt: "trying to get back into the routine"
 date: "2026-09-01"
 type: daily
 dimensions:
-  personalProject: ""
+  personalProject: "managed to go up and visit the flat"
   healthWellness: "nice cardio session"
   work: "did some MJE analysis"
   familyFriendship: "I had a nice chat to Misha, there was a moment where we nearly blew up at each other but I stayed calm and it de-escalaetd"
